@@ -21,7 +21,7 @@
     "symbol": "BSCX",
     "decimals": 18,
     "chainId": 97,
-    "logoURI": "https://raw.githubusercontent.com/Bscex/bscex-token-list/master/images/0x6ce8dA28E2f864420840cF74474eFf5fD80E65B8.png"
+    "logoURI": "https://raw.githubusercontent.com/Bscex/bscex-token-list/master/images/bscx.png"
   },
   {
     "name": "Ethereum Token",
