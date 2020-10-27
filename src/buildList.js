@@ -4,6 +4,7 @@ const ropsten = require('./tokens/ropsten.json');
 const rinkeby = require('./tokens/rinkeby.json');
 const goerli = require('./tokens/goerli.json');
 const kovan = require('./tokens/kovan.json');
+const testnet = require('./tokens/testnet.json');
 
 module.exports = function buildList() {
   const parsed = version.split('.');
@@ -26,7 +27,8 @@ module.exports = function buildList() {
       ...ropsten,
       ...goerli,
       ...kovan,
-      ...rinkeby
+      ...rinkeby,
+      ...testnet
     ]
       // sort them by symbol for easy readability
       .sort((t1, t2) => {
